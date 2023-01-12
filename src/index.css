@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div{
+  border: 1px solid black;
+}
+
+.header {
+  background-color: none;
+  color: red;
+  text-align: center;
+}
+
+.button {
+color: black;
+text-align: center;
+background-color: white;
+padding: 1% 5%;
+}
+
+.task{
+  color:black;
+  font-style: italic;
+}
