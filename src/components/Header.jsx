@@ -1,5 +1,6 @@
 import Button from "./Button"
 import Tasks from "./Tasks"
+import React from "react";
 
 export default function Header({title, tasks}){
 
@@ -10,7 +11,6 @@ export default function Header({title, tasks}){
     return <div className="header">
         <h1>{title}</h1>
         <Button text="Add" onClick={onClick}/>
-        <Tasks tasks={tasks}/>
     </div>
 }
 
